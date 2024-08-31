@@ -1,0 +1,14 @@
+[project]
+name = "pyasynccpu"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "grpcio-reflection>=1.66.1",
+    "grpcio-tools>=1.66.1",
+    "protobuf==5.27.2",
+]
+
+[tool.ruff]
+line-length = 120
